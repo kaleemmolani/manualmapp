@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="focusborder" id="focusbar">
+    <button class="focusbutton" id="focusbutton">
+      <img src="technics.png" alt="">
+    </button>
+  </div>
+  <div class="actionarea">
+    <textarea id="staticlistinput" placeholder="copy your static list here" rows="5" cols="50"></textarea>
+    <textarea id="movinglistinput"  placeholder="list insert here will be moveable" rows="5" cols="50"></textarea>
+      <button id="makelist" class="btn first">
+        make list
+      </button>
+      <button id="showresultarray" class="btn first">
+        result
+      </button>
+  </div>
+  <div class='container'>
+    <div class="staticlist">
+      <ul id="fixedlist">
+
+      </ul>
+    </div>
+    <div class="movinglist">
+      <ul id="ullist">
+        
+      </ul>
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
